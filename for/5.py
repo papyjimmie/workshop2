@@ -1,14 +1,12 @@
-adjectives = ["small", "big"]
 fruits = ["apple", "banana", "cherry"]
 
-for adjective in adjectives:
-    for fruit in fruits:
-        print(adjective, fruit)
+for fruits in fruits:
+    print(fruits)
+else:
+    print("Finally finished!")
 
 # Output:
-# ('small', 'apple')
-# ('small', 'banana')
-# ('small', 'cherry')
-# ('big', 'apple')
-# ('big', 'banana')
-# ('big', 'cherry')
+# apple
+# banana
+# cherry
+# Finally finished!

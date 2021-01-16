@@ -1,12 +1,10 @@
 fruits = ["apple", "banana", "cherry"]
 
-for fruits in fruits:
-    print(fruits)
-else:
-    print("Finally finished!")
+for fruit in fruits:
+    if fruit == "banana":
+        continue
+    print(fruit)
 
 # Output:
 # apple
-# banana
 # cherry
-# Finally finished!
