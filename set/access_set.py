@@ -11,5 +11,5 @@ for x in thisset:
 
 # EX 2
 fruits = {"apple", "banana", "cherry"}
-if "apple" in fruits
-  print("Yes, apple is a fruit!")
+if "apple" in fruits:
+    print("Yes, apple is a fruit!")

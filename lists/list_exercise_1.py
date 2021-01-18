@@ -18,6 +18,8 @@ fruits.insert(1, "lemon")
 # จงลบ "cherry" จาก list
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("cherry")
+# del fruits[2]
+# fruits.pop(2)
 
 # จงแสดงตัวสุดท้ายของ fruits
 fruits = ["apple", "banana", "cherry"]

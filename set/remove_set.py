@@ -17,15 +17,11 @@ print(thisset)  # Output: {'cherry', 'apple'}
 # EX 3
 
 thisset = {"apple", "banana", "cherry"}
-
-x = thisset.pop()
-
+thisset.pop()
 print(thisset)  # Output: {'cherry', 'apple'}
 
 
 # EX 4
 thisset = {"apple", "banana", "cherry"}
-
 thisset.clear()
-
 print(thisset)  # Output: set()
